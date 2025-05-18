@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* 垂直置中 */
+    align-items: center;      /* 水平置中 */
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+._9axz {
+    background-color: #fff;
+    padding: 30px 20px;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+a:hover {
+    text-decoration: underline; /* 滑過去時出現底線 */
+}
+a.warning_color:hover {
+    text-decoration: underline; /* 滑過去時出現底線 */
+    color: #c00;
+}
+._9ay7 {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.warning_color strong {
+    color: #c00;
+}
+
+a._sv4:hover{
+    text-decoration: underline; /* 滑過去時出現底線 */
+    color:gray;
+}
+.another_container{
+    background-color:aqua;
+    padding: 20px;
+    border: 1px solid green;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+a._sv4 {
+    color: gray;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px; /* 你可以根據需要調整 */
+    height: 30px; /* 設置統一的高度 */
+    line-height: 30px; /* 讓文字垂直居中 */
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+    height: 30px; /* 設置統一高度 */
+}
